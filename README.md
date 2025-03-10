@@ -106,11 +106,17 @@ print("Top 5 Matching CVEs:", retrieved_cves)
 📂 Project Structure
 
 CVE-RAG-AI/
-│── cve_fetcher.py      # Fetches CVE data from NVD API
-│── rag_agent.py        # RAG AI Agent for CVE Retrieval
-│── cve_data.csv        # Stored CVE data
-│── main.py (optional)  # FastAPI Server (if deployed)
-│── README.md           # Project Documentation
+
+  │── cve_fetcher.py      # Fetches CVE data from NVD API
+ 
+  │── rag_agent.py        # RAG AI Agent for CVE Retrieval
+ 
+  │── cve_data.csv        # Stored CVE data
+ 
+  │── main.py (optional)  # FastAPI Server (if deployed)
+ 
+  │── README.md           # Project Documentation
+ 
 
 🔮 Future Enhancements
 
